@@ -64,11 +64,12 @@ This project builds a binary classification model to predict whether a loan will
 ## 🧠 Model Training
 
 ### 1. **Random Forest Classifier**
-```<pre> ```python </pre>
+ ```python 
 from sklearn.ensemble import RandomForestClassifier
 rf_clf = RandomForestClassifier()
 rf_clf.fit(X_train, y_train)
-y_pred = rf_clf.predict(X_test)
+y_pred = rf_clf.predict(X_test) 
+```
 
 ### 2. **Gaussian Naive Bayes**
 ```python
@@ -76,17 +77,18 @@ from sklearn.naive_bayes import GaussianNB
 nb_classifier = GaussianNB()
 nb_classifier.fit(X_train, y_train)
 y_pred_nb = nb_classifier.predict(X_test)
+```
 
-### 1. **Evaluation Metrics**
+### 3. **Evaluation Metrics**
 ```python
 from sklearn import metrics
 print("Accuracy of Random Forest:", metrics.accuracy_score(y_test, y_pred))
 print("Accuracy of GaussianNB:", metrics.accuracy_score(y_test, y_pred_nb))
+```
 
 - Random Forest Accuracy: Higher performance
 - GaussianNB Accuracy: Lower but faster
 
-</pre>
 ---
 ## 📬 Contact
 
