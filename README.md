@@ -42,7 +42,6 @@ This project builds a binary classification model to predict whether a loan will
   - StandardScaler used to normalize the data.
 
 ---
----
 
 ## Technologies Used
 
@@ -65,7 +64,7 @@ This project builds a binary classification model to predict whether a loan will
 ## 🧠 Model Training
 
 ### 1. **Random Forest Classifier**
-```python
+```<pre> ```python </pre>
 from sklearn.ensemble import RandomForestClassifier
 rf_clf = RandomForestClassifier()
 rf_clf.fit(X_train, y_train)
@@ -87,6 +86,13 @@ print("Accuracy of GaussianNB:", metrics.accuracy_score(y_test, y_pred_nb))
 - Random Forest Accuracy: Higher performance
 - GaussianNB Accuracy: Lower but faster
 
+</pre>
+---
+## 📬 Contact
+
+**Akash Kumar Rajak**  
+📧 Email: [akashkumarrajak200@gmail.com](mailto:akashkumarrajak200@gmail.com)  
+💼 GitHub: [AkashKumarRajak](https://github.com/AkashKumarRajak)
 
 
 
