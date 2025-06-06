@@ -42,6 +42,25 @@ This project builds a binary classification model to predict whether a loan will
   - StandardScaler used to normalize the data.
 
 ---
+---
+
+## Technologies Used
+
+- Python
+- Jupyter Notebook
+- Pandas, NumPy
+- Scikit-learn
+- Matplotlib / Seaborn (optional for visualizations)
+
+---
+
+## Conclusion
+
+- Random Forest performed better in accuracy.
+- Robust data preprocessing ensured model consistency.
+- The project demonstrates a full ML pipeline for binary classification using financial data.
+
+---
 
 ## 🧠 Model Training
 
@@ -68,28 +87,6 @@ print("Accuracy of GaussianNB:", metrics.accuracy_score(y_test, y_pred_nb))
 - Random Forest Accuracy: Higher performance
 - GaussianNB Accuracy: Lower but faster
 
----
 
-## Technologies Used
 
-- Python
-- Jupyter Notebook
-- Pandas, NumPy
-- Scikit-learn
-- Matplotlib / Seaborn (optional for visualizations)
-
----
-
-## Conclusion
-
-- Random Forest performed better in accuracy.
-- Robust data preprocessing ensured model consistency.
-- The project demonstrates a full ML pipeline for binary classification using financial data.
-
----
-
-##📬 Contact
-Akash Kumar Rajak
-📧 akashkumarrajak200@gmail.com
-🔗 GitHub Profile
 
